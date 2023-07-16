@@ -1,0 +1,6 @@
+{
+    "purescript.buildCommand": "spago build --purs-args '--json-errors' ",
+    "Lua.diagnostics.disable": [
+        "redundant-parameter"
+    ]
+}

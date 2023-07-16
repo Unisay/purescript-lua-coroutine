@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "Testing ..."
+
+spago build
+
+lua dist/Test_Main.lua
